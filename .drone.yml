@@ -1,6 +1,6 @@
 image: amyecampbell/stanmf
 script:
-  - python staNMF_Example.py
+  - python ./staNMF/staNMF_Example.py
 
   # - git config user.email "brettbj@gmail.com"
   # - git config user.name "Brett Beaulieu-Jones"
