@@ -1,5 +1,5 @@
 image: amyecampbell/stanmf
-script:
+commands:
   - python staNMF/staNMF_Example.py
 
 branches:
