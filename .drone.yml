@@ -1,15 +1,6 @@
 image: amyecampbell/stanmf
 script:
-  - python ./staNMF/staNMF_Example.py
-
-  # - git config user.email "brettbj@gmail.com"
-  # - git config user.name "Brett Beaulieu-Jones"
-  # - git config --global push.default simple
-  # - git add
-  #
-  # - git remote set-url origin https://brettbj:$$git_publish_key@github.com/greenelab/continuous_analysis_phylo.git
-  # - git push --set-upstream origin master
-
+  - python staNMF/staNMF_Example.py
 
 branches:
   - staging
