@@ -1,7 +1,8 @@
 build:
   image: amyecampbell/stanmf
   commands:
-    - python staNMF/staNMF_Example.py
+    - cd staNMF
+    - python staNMF_Example.py
 
   branches:
     - staging
