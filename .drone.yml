@@ -1,6 +1,7 @@
-image: amyecampbell/stanmf
-commands:
-  - python staNMF/staNMF_Example.py
+build:
+  image: amyecampbell/stanmf
+  commands:
+    - python staNMF/staNMF_Example.py
 
-branches:
-  - staging
+  branches:
+    - staging
