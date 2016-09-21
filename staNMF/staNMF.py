@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 
 ###########################
-# Required Pacakges
+# Required Packages
 ##########################
 import math
 import random
@@ -18,6 +18,8 @@ import numpy as np
 import pandas as pd
 from scipy.stats import pearsonr
 import scipy.stats as stats
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import spams
 
